@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(90deg, #ffffff 21px, transparent 1%) center, linear-gradient(#ffffff 21px, transparent 1%) center, #ccac99;
+    background-size: 22px 22px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    margin: 10px;
+    box-sizing: content-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#sam {
+    outline: 3px solid #418af7;
+}
+
+#larkhill {
+    outline: 3px solid #DDB182;
+}
+
+#daniel {
+    outline: 3px solid #B2C715;
+}
+
+.profile-pic:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#profileName {
+    text-transform: capitalize;
+}
+
+.btn-hero {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    border:black solid 4px;
+    padding: 10px 30px;
+    background: white;
+    color: black;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.btn-hero:hover {
+    background: black;
+    color: white;
+    transition: 0.3s;
+}
+
+#overlay {
+    position: absolute;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    font-family: 'Helvetica', sans-serif;
+    bottom: 10%;
+}
+
+
+
+
+
+#videoContainer {
+    width: 90vw;
+    height: 80vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+#videoContainer video {
+    display: flex;
+    width: 100%;
+}
+
+#videoContainer video:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(9/16 * 100%);
+}
