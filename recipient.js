@@ -5,7 +5,7 @@ const mssgTextBox = document.getElementById("mssgTextBox");
 const mssgList = document.getElementById("mssgList");
 const disconnectBtn = document.getElementById("disconnectBtn");
 
-const recipientId = 'grandpa'
+const recipientId = 'grandpa-456789876345678'
 
 
 // disabled till the peer is set up
